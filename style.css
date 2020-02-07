@@ -1,0 +1,9 @@
+body{
+	background-color: coral;
+	text-align: center;
+	border-style: dotted;
+	border-width: 5px;
+}
+.weapons{
+	display:block;
+}

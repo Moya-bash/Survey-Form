@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+	<h1 id="title">
+		Counter-Strike: Global Offensive Tournament
+	</h1>
+	<p id="description">
+		Leave your mark as being the best in this local tournament. 
+	</p>
+	<form id="survey-form">
+		<br>
+		<label id="name-label" for="name">First Name</label><br>
+		<input id="name" type="name" name="firstname" placeholder="First Name" required><br>
+		<br>
+		<label id="name-label" for="name">Last Name</label><br>
+		<input type="name" name="lastname" placeholder="Last Name" required><br>
+		<br>
+		<label id="email-label" for="email">Email</label><br>
+		<input id="email" type="email" name="email" placeholder="Enter your email" required><br><br> 
+		
+		<label id="number-label" for="number">Age</label><br>
+		<input id="number" type="number" min="16" max="99" placeholder="Age" required><br><br>
+
+		<div class="form-group">
+			<label id="gender-label" for="gender">Preffered Gender</label><br>
+			<select id="dropdown" name="gender" class="form-control" required>
+				<option disabled selected value>Select</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="martian">Martian</option>
+				<option value="other">Other</option>
+				<option value="prefer-not-to-say">Prefer Not To Say</option><br>
+			</select>
+		</div><br>			
+
+		<label id="rank-label" for="rank">Rank</label><br>
+		<input type="radio" name="name" value="rookie"> Rookie
+		<input type="radio" name="name" value="pro"> Pro
+		<input type="radio" name="name" value="expert"> Expert<br><br>
+		
+		<label class="weapons">		
+		<label id="weapons-label" for="weapons">Prefered Weapon?</label><br>	
+		<input type="checkbox" name="weapon1" value="Pistol"> I prefer pistols<br>
+		<input type="checkbox" name="weapon2" value="SMG"> I prefer machine guns<br>
+		<input type="checkbox" name="weapon3" value="Rifle"> I prefer rifles<br>
+		<input type="checkbox" name="weapon4" value="Knife" checked> I prefer my knife<br><br>
+		</label>
+		
+		<textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Additional Comments"></textarea><br><br>
+			
+
+		<button id="submit" class="submit-button" type="submit">Submit</button>
+
+	</form>
+
+
+</body>
+</html>
